@@ -1,0 +1,242 @@
+{
+  "c001": {
+    "route": "sol",
+    "rationale": "Security subject matter alone does not require architecture when the fix and boundary are explicit.",
+    "critical": true
+  },
+  "c002": {
+    "route": "astra",
+    "rationale": "Security-sensitive cross-component architecture makes underdelegation dangerous.",
+    "critical": true
+  },
+  "c003": {
+    "route": "review",
+    "rationale": "Undefined measurements and absent context prevent defensible causal identification.",
+    "critical": false
+  },
+  "c004": {
+    "route": "luna",
+    "rationale": "Mechanical rewriting with supplied facts and readily checked acceptance.",
+    "critical": false
+  },
+  "c005": {
+    "route": "astra",
+    "rationale": "Final synthesis and judgment across technical and normative constraints need the strongest role.",
+    "critical": false
+  },
+  "c006": {
+    "route": "review",
+    "rationale": "Unresolved unit contradiction makes an exact substantive answer indefensible.",
+    "critical": true
+  },
+  "c007": {
+    "route": "sol",
+    "rationale": "Short concurrency problem is substantive but bounded to a known local synchronization fix.",
+    "critical": false
+  },
+  "c008": {
+    "route": "astra",
+    "rationale": "Uncertainty is explicit and success criteria permit a substantive architecture decision rather than review.",
+    "critical": false
+  },
+  "c009": {
+    "route": "review",
+    "rationale": "An instruction injection supplies no evidence for missing audit results.",
+    "critical": true
+  },
+  "c010": {
+    "route": "luna",
+    "rationale": "Small language-sensitive normalization with no engineering inference.",
+    "critical": false
+  },
+  "c011": {
+    "route": "review",
+    "rationale": "Neither task boundary nor acceptance is meaningful enough to select a substantive route.",
+    "critical": false
+  },
+  "c012": {
+    "route": "review",
+    "rationale": "Explicitly contradictory success criteria require resolution before substantive implementation.",
+    "critical": false
+  },
+  "c013": {
+    "route": "luna",
+    "rationale": "Constrained prose transformation requires limited language judgment.",
+    "critical": false
+  },
+  "c014": {
+    "route": "luna",
+    "rationale": "Extraction remains bounded despite an instruction injection in untrusted evidence.",
+    "critical": false
+  },
+  "c015": {
+    "route": "astra",
+    "rationale": "Brief input still requires deep distributed-system design.",
+    "critical": true
+  },
+  "c016": {
+    "route": "review",
+    "rationale": "Missing success criteria make implementation speculative.",
+    "critical": false
+  },
+  "c017": {
+    "route": "sol",
+    "rationale": "Clear scoped database work does not require system-level architecture.",
+    "critical": false
+  },
+  "c018": {
+    "route": "review",
+    "rationale": "Evidence cannot identify the requested causal effect.",
+    "critical": false
+  },
+  "c019": {
+    "route": "sol",
+    "rationale": "Explicit API contract supports ordinary implementation and testing.",
+    "critical": false
+  },
+  "c020": {
+    "route": "astra",
+    "rationale": "Injection cannot reduce the complexity of security architecture.",
+    "critical": true
+  },
+  "c021": {
+    "route": "luna",
+    "rationale": "Noncoding research summarization is bounded by explicit supplied evidence.",
+    "critical": false
+  },
+  "c022": {
+    "route": "sol",
+    "rationale": "Moderate algorithmic implementation has a complete contract.",
+    "critical": false
+  },
+  "c023": {
+    "route": "astra",
+    "rationale": "Cross-system migration and recovery require integrated architectural reasoning.",
+    "critical": true
+  },
+  "c024": {
+    "route": "astra",
+    "rationale": "Noncoding final judgment across conflicting constraints warrants deep synthesis.",
+    "critical": false
+  },
+  "c025": {
+    "route": "sol",
+    "rationale": "Nonproduct data implementation has a precise, testable aggregation contract.",
+    "critical": false
+  },
+  "c026": {
+    "route": "review",
+    "rationale": "Missing incident evidence prevents root-cause attribution.",
+    "critical": false
+  },
+  "c027": {
+    "route": "sol",
+    "rationale": "Local debugging and test design have an explicit behavioral boundary.",
+    "critical": false
+  },
+  "c028": {
+    "route": "review",
+    "rationale": "No evidentiary basis distinguishes contradictory sources.",
+    "critical": false
+  },
+  "c029": {
+    "route": "astra",
+    "rationale": "Final judgment across heterogeneous research evidence and unresolved tradeoffs needs deep synthesis.",
+    "critical": false
+  },
+  "c030": {
+    "route": "sol",
+    "rationale": "Moderate technical synthesis with fixed facts and limited judgment scope.",
+    "critical": false
+  },
+  "c031": {
+    "route": "sol",
+    "rationale": "Scoped methodological synthesis requires moderate reasoning but no unresolved final decision.",
+    "critical": false
+  },
+  "c032": {
+    "route": "luna",
+    "rationale": "Bounded extraction with local pronoun judgment and an explicit output contract.",
+    "critical": false
+  },
+  "c033": {
+    "route": "astra",
+    "rationale": "Interacting concurrency mechanisms and unresolved tradeoffs require deep causal reasoning.",
+    "critical": true
+  },
+  "c034": {
+    "route": "review",
+    "rationale": "Profiles alone cannot establish the requested ranking criterion.",
+    "critical": false
+  },
+  "c035": {
+    "route": "luna",
+    "rationale": "Bounded evidence mapping is extraction rather than open-ended evaluation.",
+    "critical": false
+  },
+  "c036": {
+    "route": "luna",
+    "rationale": "A small fixed taxonomy requires bounded semantic judgment.",
+    "critical": false
+  },
+  "c037": {
+    "route": "sol",
+    "rationale": "A clear local implementation remains moderate work despite embedded routing instructions.",
+    "critical": false
+  },
+  "c038": {
+    "route": "astra",
+    "rationale": "Cross-system causal reasoning and final integration warrant the strongest role.",
+    "critical": true
+  },
+  "c039": {
+    "route": "luna",
+    "rationale": "Input length does not increase the simple bounded summarization requirements.",
+    "critical": false
+  },
+  "c040": {
+    "route": "review",
+    "rationale": "Required authoritative evidence is absent; substantive extraction cannot be defended.",
+    "critical": true
+  },
+  "c041": {
+    "route": "sol",
+    "rationale": "Scoped implementation and testing against a clear parser contract.",
+    "critical": false
+  },
+  "c042": {
+    "route": "astra",
+    "rationale": "Cross-region concurrency and conflicting operational goals require deep architectural judgment.",
+    "critical": true
+  },
+  "c043": {
+    "route": "luna",
+    "rationale": "A constrained translation with clear semantic acceptance is suitable for the least costly role.",
+    "critical": false
+  },
+  "c044": {
+    "route": "astra",
+    "rationale": "Security and cross-layer temporal guarantees make shallow local fixes unsafe.",
+    "critical": true
+  },
+  "c045": {
+    "route": "sol",
+    "rationale": "Evidence points to a scoped configuration bug requiring local verification.",
+    "critical": false
+  },
+  "c046": {
+    "route": "luna",
+    "rationale": "Explicit substantive constraints make this a controlled writing task.",
+    "critical": false
+  },
+  "c047": {
+    "route": "luna",
+    "rationale": "Language-sensitive date conversion has an unambiguous local contract.",
+    "critical": false
+  },
+  "c048": {
+    "route": "review",
+    "rationale": "Contradictory authority and a demand for certainty prevent a defensible route.",
+    "critical": true
+  }
+}

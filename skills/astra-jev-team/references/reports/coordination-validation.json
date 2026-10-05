@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-04",
+  "release": "v2.2",
+  "offline_unit_tests": 65,
+  "independent_coordination_tests": 10,
+  "independent_dispatch_regressions": 9,
+  "evaluator": "gpt-6-luna",
+  "live_calls": 0,
+  "skill_structure": "pass",
+  "status": "experimental_unpublished",
+  "classifier_rubric_changed": false,
+  "host_policy_changed": true,
+  "new_task_default_instructions": "explicit host mode",
+  "omitted_mode": "legacy astra mode",
+  "limits": [
+    "No new coding-outcome benchmark",
+    "Host review does not establish Astra-equivalent capability",
+    "Receipts remain host-attested"
+  ]
+}

@@ -1,0 +1,672 @@
+{
+  "dataset": "RouterArena sub_10",
+  "dataset_revision": "a4a062ce3313b56bb09c042e1bc37b61d34e3bd8",
+  "dataset_manifest_sha256": "4f4c899b675cc6cabf730502ff60c0fd63105379b4d5ce8e11dec93579180796",
+  "route_script_sha256": "8050431e07073b00341140e2caedffc26072251992e51fc89fac2e1f80982a77",
+  "jev_model": "jev-1.13.0",
+  "provider": "official TypeSafe",
+  "proxy_mapping": {
+    "easy": "luna",
+    "medium": "sol",
+    "hard": "astra"
+  },
+  "proxy_warning": "Published task difficulty is not validated gold for Astra/Sol/Luna skill routing.",
+  "answer_keys_and_difficulty_in_requests": false,
+  "live_requested": true,
+  "batches": [
+    {
+      "ids": [
+        "ra-001",
+        "ra-002",
+        "ra-003",
+        "ra-004",
+        "ra-005",
+        "ra-006",
+        "ra-007",
+        "ra-008",
+        "ra-009",
+        "ra-010"
+      ],
+      "call_attempted": true,
+      "jev_called": true,
+      "routes": [
+        {
+          "id": "ra-001",
+          "route": "review",
+          "reason": "semantic_review",
+          "raw_choice": "review",
+          "input_sha256": "ea97188213e1df902b129394ee9f1e00f304bd97db411afe235b88debe879ae2",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:QANTA_Literature_1045"
+        },
+        {
+          "id": "ra-002",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "luna",
+          "input_sha256": "0b42200939ff80d6a2491de2651ddedd7bc522dbd30aebe5e2bc5b52002bc1a2",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MMLUPro_biology_3225"
+        },
+        {
+          "id": "ra-003",
+          "route": "review",
+          "reason": "semantic_review",
+          "raw_choice": "review",
+          "input_sha256": "e00dc7031fcabd894012440d53421c21a10be8b421ff11e92b7fbf95fc51b5ae",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MMLUPro_psychology_2406"
+        },
+        {
+          "id": "ra-004",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "luna",
+          "input_sha256": "c0ecfc9f9c05e94182b4ce084ba0062165b56e8abaa60c73695caae8825460c5",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MMLUPro_business_382"
+        },
+        {
+          "id": "ra-005",
+          "route": "sol",
+          "reason": "selected",
+          "raw_choice": "sol",
+          "input_sha256": "71a625f8d01eba73924c484b095b3c316ab9c1ba46b5d5789f5ffaa12bcaf7e2",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:LiveCodeBench_211"
+        },
+        {
+          "id": "ra-006",
+          "route": "sol",
+          "reason": "selected",
+          "raw_choice": "sol",
+          "input_sha256": "50b6b3e228774ec6b20981d4be064c50e37430fe8eea12551f8b92419b0090c4",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:LiveCodeBench_476"
+        },
+        {
+          "id": "ra-007",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "sol",
+          "input_sha256": "003e4be8334eb27857b55d4e4805818fb65a8cc6275b5e8ceb69c94c1c056be1",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MMLUPro_engineering_10309"
+        },
+        {
+          "id": "ra-008",
+          "route": "luna",
+          "reason": "selected",
+          "raw_choice": "luna",
+          "input_sha256": "2a3a54b15c3d52f09f19a42d33417fbef792d1dc45e141626eeea17da7567582",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MMLUPro_math_7422"
+        },
+        {
+          "id": "ra-009",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "sol",
+          "input_sha256": "847d5dcca05c31ed163eb7012207f054fe0ad91db7b91f00b552a7c1429b8900",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:ChessInstruct_107"
+        },
+        {
+          "id": "ra-010",
+          "route": "luna",
+          "reason": "selected",
+          "raw_choice": "luna",
+          "input_sha256": "99e3324b3137a7dc7cba6e840b472cee2d3577e97bf65e251b5b1794d3a94bdf",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:OpenTDB_Science: Computers_2568"
+        }
+      ],
+      "elapsed_seconds": 0.26953925
+    },
+    {
+      "ids": [
+        "ra-011",
+        "ra-012",
+        "ra-013",
+        "ra-014",
+        "ra-015",
+        "ra-016",
+        "ra-017",
+        "ra-018",
+        "ra-019",
+        "ra-020"
+      ],
+      "call_attempted": true,
+      "jev_called": true,
+      "routes": [
+        {
+          "id": "ra-011",
+          "route": "luna",
+          "reason": "selected",
+          "raw_choice": "luna",
+          "input_sha256": "48dd5708ee7fd7aaf4494a33830fa932e5bbadcf2c54b311f75ec552ff5c2767",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:SuperGLUE-Entailment_522"
+        },
+        {
+          "id": "ra-012",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "sol",
+          "input_sha256": "e3acf9a0d6d0fcbcda043dc0e6d64f0996598f9481a6ddaa8d61ee342c274249",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MMLUPro_health_4923"
+        },
+        {
+          "id": "ra-013",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "luna",
+          "input_sha256": "446b826057dc39fbfbddc825fedc41a65ef6ec910aeb5fc99615f7930efadb21",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:SuperGLUE-ClozeTest_18477"
+        },
+        {
+          "id": "ra-014",
+          "route": "review",
+          "reason": "semantic_review",
+          "raw_choice": "review",
+          "input_sha256": "9876fa809c79a11ac04628fc79b3af4188ee43ec0b2766c1b510770e4f04a286",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MMLUPro_business_6"
+        },
+        {
+          "id": "ra-015",
+          "route": "review",
+          "reason": "semantic_review",
+          "raw_choice": "review",
+          "input_sha256": "25fe1d5c8da83fce89b256a1fa124e1d1568ae0fa08a9bd93e11346c043baa4e",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:QANTA_Geography_1555"
+        },
+        {
+          "id": "ra-016",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "luna",
+          "input_sha256": "954d94801c72b5cd96a1bcf9eec8e70dd34ebdc51ee71ed6ec93bb54b677c390",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MMLUPro_philosophy_9510"
+        },
+        {
+          "id": "ra-017",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "luna",
+          "input_sha256": "c6811f52d620b04f48bb5165903cacd49a94e1b4113386f1ecb30bb3951dd1a0",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:SuperGLUE-RC_8531"
+        },
+        {
+          "id": "ra-018",
+          "route": "luna",
+          "reason": "selected",
+          "raw_choice": "luna",
+          "input_sha256": "ef8a89c032e06b63b7915a84d8e12d7cd58d0164c053f403744cdd34f8619112",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:PubMedQA_63"
+        },
+        {
+          "id": "ra-019",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "luna",
+          "input_sha256": "d76a729b344944539f4a2fd771607d6d28608ec735f60dbc7e4ffc2c3cf81b92",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MMLUPro_history_4752"
+        },
+        {
+          "id": "ra-020",
+          "route": "review",
+          "reason": "semantic_review",
+          "raw_choice": "review",
+          "input_sha256": "12be9d6f7232138cdcc2086c0d3254d198575ab0e18f816caa0426ae38fcbd8b",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:Ethics_justice_84"
+        }
+      ],
+      "elapsed_seconds": 0.27290579200000004
+    },
+    {
+      "ids": [
+        "ra-021",
+        "ra-022",
+        "ra-023",
+        "ra-024",
+        "ra-025",
+        "ra-026",
+        "ra-027",
+        "ra-028",
+        "ra-029",
+        "ra-030"
+      ],
+      "call_attempted": true,
+      "jev_called": true,
+      "routes": [
+        {
+          "id": "ra-021",
+          "route": "review",
+          "reason": "semantic_review",
+          "raw_choice": "review",
+          "input_sha256": "e9cb8179c83bb80d1f4dd30e2dc1b0d5851de551c9d58c9bded1117f4ce6ee86",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MMLUPro_health_5093"
+        },
+        {
+          "id": "ra-022",
+          "route": "luna",
+          "reason": "selected",
+          "raw_choice": "luna",
+          "input_sha256": "af67f07184e6ef8fb7c3ec403262fe56690b6573053f4d9d62cd0d3ca21e3ef4",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:NarrativeQA_6875"
+        },
+        {
+          "id": "ra-023",
+          "route": "review",
+          "reason": "semantic_review",
+          "raw_choice": "review",
+          "input_sha256": "063d7660345e22b5b2421c206a23eadcc74ffdbe00dfba9a78986daaadfc5eb0",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:QANTA_Science_1236"
+        },
+        {
+          "id": "ra-024",
+          "route": "review",
+          "reason": "semantic_review",
+          "raw_choice": "review",
+          "input_sha256": "8d95b2527b51d09a2b5bc4b47f6ffc1e80067ecf720fc15794341c7e5f29f655",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:GeoBench_30"
+        },
+        {
+          "id": "ra-025",
+          "route": "luna",
+          "reason": "selected",
+          "raw_choice": "luna",
+          "input_sha256": "bc982f15134c5b3d008a5f0a3958d0b0a1d3332e3aeb3f2b94ab1cb271a0149a",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MMLU_formal_logic_70"
+        },
+        {
+          "id": "ra-026",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "luna",
+          "input_sha256": "7e09f16600f64c3e57fbaffd80fe920d846aedfa3f90835161ba208be8f25dbe",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MMLUPro_history_4486"
+        },
+        {
+          "id": "ra-027",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "sol",
+          "input_sha256": "3873e814831e19a042b75b417da1a977b5ac046527b888a829e669abbc65c61d",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:AIME_58"
+        },
+        {
+          "id": "ra-028",
+          "route": "luna",
+          "reason": "selected",
+          "raw_choice": "luna",
+          "input_sha256": "f7b5865a57d54ccb3113bd80b7cde6585185fcdea36b2c5e4e188553fd5af94d",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:OpenTDB_Entertainment: Books_3056"
+        },
+        {
+          "id": "ra-029",
+          "route": "review",
+          "reason": "semantic_review",
+          "raw_choice": "review",
+          "input_sha256": "690b4e3a1ff2881d0cd3bd847ea5b3dbc55b95934281fa809d517dbb8b5c72c0",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:QANTA_Literature_1653"
+        },
+        {
+          "id": "ra-030",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "sol",
+          "input_sha256": "d99e7edc09edf7a9fd0ef3da5caa011afbce5e18c9a67af2745254c95ce78e19",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MedMCQA_1697"
+        }
+      ],
+      "elapsed_seconds": 0.35320604200000005
+    },
+    {
+      "ids": [
+        "ra-031",
+        "ra-032",
+        "ra-033",
+        "ra-034",
+        "ra-035",
+        "ra-036",
+        "ra-037",
+        "ra-038",
+        "ra-039",
+        "ra-040"
+      ],
+      "call_attempted": true,
+      "jev_called": true,
+      "routes": [
+        {
+          "id": "ra-031",
+          "route": "review",
+          "reason": "semantic_review",
+          "raw_choice": "review",
+          "input_sha256": "af240c1bf3cb9a8a266db51c6748a19ec12bf98234d32fc3cd55cd4789bf58ae",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:QANTA_Literature_1239"
+        },
+        {
+          "id": "ra-032",
+          "route": "luna",
+          "reason": "selected",
+          "raw_choice": "luna",
+          "input_sha256": "6bef97fb6582c05fc1759be89d81fca9af701fb4368e1458e8dd96848491c781",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:NarrativeQA_7594"
+        },
+        {
+          "id": "ra-033",
+          "route": "review",
+          "reason": "semantic_review",
+          "raw_choice": "review",
+          "input_sha256": "9a9e5dde9bf91ded0e828fbcba89a43a28a47967133ef919470002e413cbf3a4",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:WMT19-de-en_46"
+        },
+        {
+          "id": "ra-034",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "sol",
+          "input_sha256": "c41c3f7af7d70fbba158f2c23f6e3887a96fe6db607d83198a0420041387e13c",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MMLUPro_computer science_9257"
+        },
+        {
+          "id": "ra-035",
+          "route": "review",
+          "reason": "semantic_review",
+          "raw_choice": "review",
+          "input_sha256": "6558bdcb4a970c0c30ae647b633095382ed2067b597e7e668cc48f416933a417",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:QANTA_Philosophy_1270"
+        },
+        {
+          "id": "ra-036",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "sol",
+          "input_sha256": "fe7070a9df74a5df690c2b3362eb560921606e0be319aaa1d8715d749330ae41",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MMLUPro_computer science_9456"
+        },
+        {
+          "id": "ra-037",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "sol",
+          "input_sha256": "7931891cf147395f746c7e9076ec2656199a7476b1247cc505cb6acc88a6f581",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MMLU_formal_logic_32"
+        },
+        {
+          "id": "ra-038",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "luna",
+          "input_sha256": "28e151566ae7b65ad0b4a20c7c990d692045eb2b714e667eb95a000c3f9b3440",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MMLUPro_economics_5907"
+        },
+        {
+          "id": "ra-039",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "sol",
+          "input_sha256": "029e9433ebe78721d0bcc8887749246556e44367d3eea6fd2a8a62b604430fd3",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MATH_150"
+        },
+        {
+          "id": "ra-040",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "luna",
+          "input_sha256": "65a0a3f359d807c373c0eaad74f32b98e0e080d28d48eaaa18ba9c65fd6520ba",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MMLUPro_law_1518"
+        }
+      ],
+      "elapsed_seconds": 0.303742042
+    },
+    {
+      "ids": [
+        "ra-041",
+        "ra-042",
+        "ra-043",
+        "ra-044",
+        "ra-045",
+        "ra-046",
+        "ra-047",
+        "ra-048",
+        "ra-049",
+        "ra-050"
+      ],
+      "call_attempted": true,
+      "jev_called": true,
+      "routes": [
+        {
+          "id": "ra-041",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "luna",
+          "input_sha256": "fa28ab2dbce611b79003aee7a3a07c2a808195bd1b1cbc64697c22c7685888d0",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MMLU_formal_logic_121"
+        },
+        {
+          "id": "ra-042",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "luna",
+          "input_sha256": "2872a8b0315c7037aa020453b6c9d4bccb8e03e0ff132c82c1b9704ea58ee585",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:Ethics_commonsense_99"
+        },
+        {
+          "id": "ra-043",
+          "route": "review",
+          "reason": "semantic_review",
+          "raw_choice": "review",
+          "input_sha256": "5662583ca8c5ec4abb70ad7b3a07a11b0e14806d69a112fdd209e053cb1ba567",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:WMT19-zh-en_59"
+        },
+        {
+          "id": "ra-044",
+          "route": "review",
+          "reason": "semantic_review",
+          "raw_choice": "review",
+          "input_sha256": "29dcb0cf364a02f64e6fb651544b8c35d8908514e3ddc62a35a5beb44f5a6bd0",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MMLUPro_economics_6135"
+        },
+        {
+          "id": "ra-045",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "astra",
+          "input_sha256": "1d1f96c9eccde12582d313f6f81c8b0e1f1cec12c834653879453432e9b1713a",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:ChessInstruct_36"
+        },
+        {
+          "id": "ra-046",
+          "route": "luna",
+          "reason": "selected",
+          "raw_choice": "luna",
+          "input_sha256": "223af4e2e21fe344f780e8b2b5878b684d78309bfbbfebda1daa8a99c5155094",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:SuperGLUE-Wsc_20311"
+        },
+        {
+          "id": "ra-047",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "luna",
+          "input_sha256": "ae71a72943733727cd1c551f7ab27a7334a97bb0fca7860fed74db82ef93ed18",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MMLUPro_psychology_2220"
+        },
+        {
+          "id": "ra-048",
+          "route": "sol",
+          "reason": "selected",
+          "raw_choice": "sol",
+          "input_sha256": "561dd8eaa6c401bb15a64b038721fd2620a08b53d37894c14e83966cb33c40bb",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:LiveCodeBench_84"
+        },
+        {
+          "id": "ra-049",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "luna",
+          "input_sha256": "6641b671ae247dc1f51a79d4ad39e59a1376336f4f5327c47d565ccc8d19b641",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:AsDiv_1347"
+        },
+        {
+          "id": "ra-050",
+          "route": "sol",
+          "reason": "selected",
+          "raw_choice": "sol",
+          "input_sha256": "2b75284c2ecee25c79f30bf9bd5694dfce709c52620e6f3cb4da5c4318592d97",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:LiveCodeBench_344"
+        }
+      ],
+      "elapsed_seconds": 0.285969833
+    },
+    {
+      "ids": [
+        "ra-051",
+        "ra-052",
+        "ra-053",
+        "ra-054",
+        "ra-055",
+        "ra-056",
+        "ra-057",
+        "ra-058",
+        "ra-059",
+        "ra-060"
+      ],
+      "call_attempted": true,
+      "jev_called": true,
+      "routes": [
+        {
+          "id": "ra-051",
+          "route": "luna",
+          "reason": "selected",
+          "raw_choice": "luna",
+          "input_sha256": "e2e99e8c9948fa3caba769d3998e8e2d68bec9820bee9c27de6e4e596755873f",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MMLUPro_business_507"
+        },
+        {
+          "id": "ra-052",
+          "route": "luna",
+          "reason": "selected",
+          "raw_choice": "luna",
+          "input_sha256": "6f5873f1715518bd8ec9461cd2e2a3ae6986066c13ddb7616f423f9adf900dbc",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:NarrativeQA_5022"
+        },
+        {
+          "id": "ra-053",
+          "route": "sol",
+          "reason": "selected",
+          "raw_choice": "sol",
+          "input_sha256": "cd75a18a6e9c2c967cae57594d80023b264bb3749e9c3607b1063729c2f246aa",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:LiveCodeBench_16"
+        },
+        {
+          "id": "ra-054",
+          "route": "review",
+          "reason": "semantic_review",
+          "raw_choice": "review",
+          "input_sha256": "17a8553f3513b54c97c00586e8ddc6f58cb96aad21152f8cf437e20c8362e55d",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:WMT19-fi-en_610"
+        },
+        {
+          "id": "ra-055",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "luna",
+          "input_sha256": "ef4b8ae9bf97d554efdd613ae33789b6c6162e653488ee1ff5965e5430db790b",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:OpenTDB_Entertainment: Books_1580"
+        },
+        {
+          "id": "ra-056",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "luna",
+          "input_sha256": "af7080f6b08dfc6fd9ecc62bf8eb5226b33b820ff89a7beedf48ea51cc60ccc3",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:OpenTDB_General Knowledge_883"
+        },
+        {
+          "id": "ra-057",
+          "route": "luna",
+          "reason": "selected",
+          "raw_choice": "luna",
+          "input_sha256": "087acdb20327ec13df6c98ba42078b9f5868d524f5e7b628f713ccd7032e8349",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:MMLUPro_history_4743"
+        },
+        {
+          "id": "ra-058",
+          "route": "review",
+          "reason": "uncertain",
+          "raw_choice": "luna",
+          "input_sha256": "e871ed5e9cecd718ed028cd9de16542e55473f5fe81996912943a21113597142",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:GSM8K_174"
+        },
+        {
+          "id": "ra-059",
+          "route": "luna",
+          "reason": "selected",
+          "raw_choice": "luna",
+          "input_sha256": "440379fbef50772b856ba225350321da781754a150c1171ce1b3e1baa3844c8e",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:OpenTDB_History_3902"
+        },
+        {
+          "id": "ra-060",
+          "route": "luna",
+          "reason": "selected",
+          "raw_choice": "luna",
+          "input_sha256": "3a1a3184116efd9d781ab91054716e677a94aeebcf9197643d3a03e5abea38ac",
+          "snapshot": "routerarena:a4a062ce3313b56bb09c042e1bc37b61d34e3bd8:sub_10:Ethics_commonsense_0"
+        }
+      ],
+      "elapsed_seconds": 0.29222354100000003
+    }
+  ],
+  "calls_attempted": 6,
+  "jev_calls_confirmed": 6,
+  "elapsed_seconds_total": 1.7775865,
+  "metrics": {
+    "n": 60,
+    "proxy_exact_effective_correct": 11,
+    "proxy_exact_effective_accuracy": 0.18333333333333332,
+    "proxy_exact_raw_choice_correct": 20,
+    "proxy_exact_raw_choice_accuracy": 0.3333333333333333,
+    "review_count": 41,
+    "review_rate": 0.6833333333333333,
+    "substantive_coverage": 0.31666666666666665,
+    "selective_accuracy": 0.5789473684210527,
+    "per_class": {
+      "luna": {
+        "n": 20,
+        "effective_correct": 9,
+        "effective_accuracy": 0.45,
+        "raw_choice_correct": 14
+      },
+      "sol": {
+        "n": 20,
+        "effective_correct": 2,
+        "effective_accuracy": 0.1,
+        "raw_choice_correct": 6
+      },
+      "astra": {
+        "n": 20,
+        "effective_correct": 0,
+        "effective_accuracy": 0.0,
+        "raw_choice_correct": 0
+      }
+    },
+    "confusion_matrix_including_review": {
+      "luna": {
+        "luna": 9,
+        "sol": 1,
+        "astra": 0,
+        "review": 10
+      },
+      "sol": {
+        "luna": 1,
+        "sol": 2,
+        "astra": 0,
+        "review": 17
+      },
+      "astra": {
+        "luna": 4,
+        "sol": 2,
+        "astra": 0,
+        "review": 14
+      }
+    },
+    "reason_counts": {
+      "semantic_review": 15,
+      "uncertain": 26,
+      "selected": 19
+    }
+  },
+  "protocol": "One smoke run at n=4 or one full run at n=60; frozen v1 thresholds; no tuning."
+}

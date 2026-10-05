@@ -1,0 +1,50 @@
+{
+  "benchmark": "RouteLLM GSM8K historical response replay",
+  "repository": "https://github.com/lm-sys/RouteLLM",
+  "revision": "0b64fdafe049e596a3f5657c219329f24af24198",
+  "repository_license": "Apache-2.0 (RouteLLM repository); GSM8K source dataset is MIT per its official card.",
+  "source_files": {
+    "gsm8k_responses.csv": {
+      "url": "https://raw.githubusercontent.com/lm-sys/RouteLLM/0b64fdafe049e596a3f5657c219329f24af24198/routellm/evals/gsm8k/gsm8k_responses.csv",
+      "sha256": "1f38ed03db354a020f71e92022383dc3cf37bbf2694dea4daaeea7b6c43fe57b"
+    },
+    "contaminated_prompts.jsonl": {
+      "url": "https://raw.githubusercontent.com/lm-sys/RouteLLM/0b64fdafe049e596a3f5657c219329f24af24198/routellm/evals/gsm8k/contaminated_prompts.jsonl",
+      "sha256": "1f5a7be02148ee0f7f306d233ba76a6573c826cee9499a34f8ef938a1a84c234"
+    },
+    "test.jsonl": {
+      "url": "https://raw.githubusercontent.com/lm-sys/RouteLLM/0b64fdafe049e596a3f5657c219329f24af24198/routellm/evals/gsm8k/test.jsonl",
+      "sha256": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14"
+    }
+  },
+  "source_rows": 1319,
+  "canonical_test_prompts": 1319,
+  "contaminated_prompts_excluded": 12,
+  "eligible_unique_rows": 1307,
+  "selected_rows": 80,
+  "calibration_rows": 20,
+  "heldout_rows": 60,
+  "seed": 20261004,
+  "selection": "Sample 80 unique test prompts from exact-contamination-filtered rows, then first 20 calibration and next 60 heldout; fixed before observing selected outcomes.",
+  "weak_model": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+  "strong_model": "gpt-4-1106-preview",
+  "source_outcomes": "Boolean exact-answer correctness columns and original response completions exist in RouteLLM CSV; only the original correctness booleans are retained for selected rows.",
+  "contamination_rule": "Exclude exact prompt strings listed as eval_prompt in RouteLLM contaminated_prompts.jsonl; also require exact match to official test.jsonl question.",
+  "limitations": [
+    "Historical 2024 model pair; results do not establish current Astra/Sol/Luna model outcomes.",
+    "Correctness is only on GSM8K math questions and one fixed prompt template.",
+    "No per-item heldout correctness or gold answers are sent to Jev.",
+    "No token usage or price data is available here; no monetary savings are reported."
+  ],
+  "source_links": [
+    "https://github.com/lm-sys/RouteLLM/tree/0b64fdafe049e596a3f5657c219329f24af24198/routellm/evals/gsm8k",
+    "https://huggingface.co/datasets/openai/gsm8k"
+  ],
+  "files_sha256": {
+    "calibration.json": "6cc230500f5573dd4dcad5830cdf208b70d93f2ff615da81e043f3c0d7b392b8",
+    "heldout.json": "54179f214590be3ed49b202a066fbb64a9837fe2764a3bcf5111c497364bd6ef",
+    "tasks.json": "85bf311c4c24fdc98a20abf2a7162c809dc7a51e1931a8ec61d01da27fc9afc0",
+    "gold.json": "da2a03b03cfa4b6b87dad16771401e2bd7f23f2ce71aa10ea9fa80c675b77d66",
+    "calibration-summary.json": "c08f72b2d2d4d13dc27fa24e83933b4b689d842c831027a48a82576ee5c57b12"
+  }
+}

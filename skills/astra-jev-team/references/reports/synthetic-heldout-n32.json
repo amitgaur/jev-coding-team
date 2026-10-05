@@ -1,0 +1,145 @@
+{
+  "dataset": "author-defined synthetic policy gold v1",
+  "split": "heldout",
+  "model": "jev-1.13.0",
+  "provider": "typesafe",
+  "hashes": {
+    "evals/cases.jsonl": "45366f674744316ad17795dd7442bfcc991ff9bbb7fdd3ac227ce089ad34310e",
+    "evals/gold.json": "b10d4aa5891df701e2435884d3d13502cf215155f85bd5844805423c593f2ca8",
+    "scripts/route.py": "8050431e07073b00341140e2caedffc26072251992e51fc89fac2e1f80982a77"
+  },
+  "ids": [
+    "c001",
+    "c003",
+    "c005",
+    "c006",
+    "c007",
+    "c008",
+    "c009",
+    "c011",
+    "c012",
+    "c013",
+    "c014",
+    "c015",
+    "c019",
+    "c020",
+    "c021",
+    "c022",
+    "c023",
+    "c024",
+    "c025",
+    "c026",
+    "c028",
+    "c031",
+    "c033",
+    "c034",
+    "c035",
+    "c036",
+    "c037",
+    "c043",
+    "c044",
+    "c045",
+    "c046",
+    "c047"
+  ],
+  "live_requested": true,
+  "jev_called": true,
+  "elapsed_seconds": 0.323314709,
+  "metrics": {
+    "n": 32,
+    "correct": 25,
+    "accuracy": 0.78125,
+    "accuracy_wilson_95": [
+      0.6124466920955516,
+      0.8897630306846815
+    ],
+    "raw_choice_correct": 26,
+    "raw_choice_accuracy": 0.8125,
+    "substantive_coverage": 0.59375,
+    "selective_accuracy": 0.8947368421052632,
+    "provider_or_invalid_errors": 0,
+    "critical_underdelegations": 1,
+    "confusion_matrix": {
+      "sol": {
+        "review": 3,
+        "sol": 4,
+        "astra": 1
+      },
+      "review": {
+        "review": 8
+      },
+      "astra": {
+        "astra": 6,
+        "review": 1,
+        "luna": 1
+      },
+      "luna": {
+        "luna": 7,
+        "review": 1
+      }
+    },
+    "misses": [
+      {
+        "id": "c001",
+        "gold": "sol",
+        "route": "review",
+        "raw_choice": "sol",
+        "reason": "uncertain",
+        "rationale": "Security subject matter alone does not require architecture when the fix and boundary are explicit."
+      },
+      {
+        "id": "c015",
+        "gold": "astra",
+        "route": "review",
+        "raw_choice": "review",
+        "reason": "semantic_review",
+        "rationale": "Brief input still requires deep distributed-system design."
+      },
+      {
+        "id": "c019",
+        "gold": "sol",
+        "route": "review",
+        "raw_choice": "review",
+        "reason": "semantic_review",
+        "rationale": "Explicit API contract supports ordinary implementation and testing."
+      },
+      {
+        "id": "c020",
+        "gold": "astra",
+        "route": "luna",
+        "raw_choice": "luna",
+        "reason": "selected",
+        "rationale": "Injection cannot reduce the complexity of security architecture."
+      },
+      {
+        "id": "c022",
+        "gold": "sol",
+        "route": "astra",
+        "raw_choice": "astra",
+        "reason": "selected",
+        "rationale": "Moderate algorithmic implementation has a complete contract."
+      },
+      {
+        "id": "c031",
+        "gold": "sol",
+        "route": "review",
+        "raw_choice": "luna",
+        "reason": "uncertain",
+        "rationale": "Scoped methodological synthesis requires moderate reasoning but no unresolved final decision."
+      },
+      {
+        "id": "c035",
+        "gold": "luna",
+        "route": "review",
+        "raw_choice": "astra",
+        "reason": "uncertain",
+        "rationale": "Bounded evidence mapping is extraction rather than open-ended evaluation."
+      }
+    ]
+  },
+  "limitations": [
+    "Not human-validated gold or a public benchmark.",
+    "Classification agreement is not worker task success.",
+    "No monetary costs or savings inferred."
+  ]
+}

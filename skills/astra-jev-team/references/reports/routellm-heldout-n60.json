@@ -1,0 +1,286 @@
+{
+  "benchmark": "RouteLLM GSM8K historical outcomes",
+  "revision": "0b64fdafe049e596a3f5657c219329f24af24198",
+  "model": "jev-1.13.0",
+  "provider": "official TypeSafe",
+  "live_requested": true,
+  "calibration_summary_sent": {
+    "mistralai/Mixtral-8x7B-Instruct-v0.1": {
+      "correct": 13,
+      "n": 20,
+      "accuracy": 0.65
+    },
+    "gpt-4-1106-preview": {
+      "correct": 19,
+      "n": 20,
+      "accuracy": 0.95
+    }
+  },
+  "test_rows": 60,
+  "test_ids": [
+    "test-001",
+    "test-002",
+    "test-003",
+    "test-004",
+    "test-005",
+    "test-006",
+    "test-007",
+    "test-008",
+    "test-009",
+    "test-010",
+    "test-011",
+    "test-012",
+    "test-013",
+    "test-014",
+    "test-015",
+    "test-016",
+    "test-017",
+    "test-018",
+    "test-019",
+    "test-020",
+    "test-021",
+    "test-022",
+    "test-023",
+    "test-024",
+    "test-025",
+    "test-026",
+    "test-027",
+    "test-028",
+    "test-029",
+    "test-030",
+    "test-031",
+    "test-032",
+    "test-033",
+    "test-034",
+    "test-035",
+    "test-036",
+    "test-037",
+    "test-038",
+    "test-039",
+    "test-040",
+    "test-041",
+    "test-042",
+    "test-043",
+    "test-044",
+    "test-045",
+    "test-046",
+    "test-047",
+    "test-048",
+    "test-049",
+    "test-050",
+    "test-051",
+    "test-052",
+    "test-053",
+    "test-054",
+    "test-055",
+    "test-056",
+    "test-057",
+    "test-058",
+    "test-059",
+    "test-060"
+  ],
+  "answer_keys_and_test_outcomes_in_requests": false,
+  "requests_sha256": {
+    "batch-01/request.json": "601d1691bd57bd7fcf3a60431fc43bda73be386e11aa5027e4857c93b7f7d13c",
+    "batch-02/request.json": "8bf0e049ee0e20de04ea6fcb7006c9fb78980204bcd42bc6b6927cfeb4f6cfb1",
+    "batch-03/request.json": "35313195a5c33d47f857310f390d016a537d1f961b1516540cb430e37a0d4ae2",
+    "batch-04/request.json": "5586dc724de46ae334aa140afdd2e39260ed5cfca5cb18b3808e28c8a2d8506e",
+    "batch-05/request.json": "c7714f039ef460eb06deb6dc234ec1b1d02ec47cfc89baf80eac644ec1940511",
+    "batch-06/request.json": "30669bf68d6927606f3df731bb3f6476339914da1cc2e4db33b855951d057a0d"
+  },
+  "evaluator_sha256": "cfada6f277171f0435d583981b8f914782f1b3b2a383c2e32b34ac79791415bf",
+  "source_manifest_sha256": "baee4660bef3f3ffe5e91f3fc878559466343a530c12bc3c6fa6d3fc9a910104",
+  "batch_calls_attempted": 6,
+  "jev_calls_confirmed": 6,
+  "batches": [
+    {
+      "ids": [
+        "test-001",
+        "test-002",
+        "test-003",
+        "test-004",
+        "test-005",
+        "test-006",
+        "test-007",
+        "test-008",
+        "test-009",
+        "test-010"
+      ],
+      "call_attempted": true,
+      "jev_called": true,
+      "elapsed_seconds": 0.24890795799999998
+    },
+    {
+      "ids": [
+        "test-011",
+        "test-012",
+        "test-013",
+        "test-014",
+        "test-015",
+        "test-016",
+        "test-017",
+        "test-018",
+        "test-019",
+        "test-020"
+      ],
+      "call_attempted": true,
+      "jev_called": true,
+      "elapsed_seconds": 0.24164058400000005
+    },
+    {
+      "ids": [
+        "test-021",
+        "test-022",
+        "test-023",
+        "test-024",
+        "test-025",
+        "test-026",
+        "test-027",
+        "test-028",
+        "test-029",
+        "test-030"
+      ],
+      "call_attempted": true,
+      "jev_called": true,
+      "elapsed_seconds": 0.24078029199999995
+    },
+    {
+      "ids": [
+        "test-031",
+        "test-032",
+        "test-033",
+        "test-034",
+        "test-035",
+        "test-036",
+        "test-037",
+        "test-038",
+        "test-039",
+        "test-040"
+      ],
+      "call_attempted": true,
+      "jev_called": true,
+      "elapsed_seconds": 0.2578480000000001
+    },
+    {
+      "ids": [
+        "test-041",
+        "test-042",
+        "test-043",
+        "test-044",
+        "test-045",
+        "test-046",
+        "test-047",
+        "test-048",
+        "test-049",
+        "test-050"
+      ],
+      "call_attempted": true,
+      "jev_called": true,
+      "elapsed_seconds": 0.23772316700000018
+    },
+    {
+      "ids": [
+        "test-051",
+        "test-052",
+        "test-053",
+        "test-054",
+        "test-055",
+        "test-056",
+        "test-057",
+        "test-058",
+        "test-059",
+        "test-060"
+      ],
+      "call_attempted": true,
+      "jev_called": true,
+      "elapsed_seconds": 0.25584874999999996
+    }
+  ],
+  "metrics": {
+    "n": 60,
+    "model_outcome_distribution": {
+      "both_correct": 34,
+      "weak_only_correct": 6,
+      "strong_only_correct": 18,
+      "neither_correct": 2
+    },
+    "always_weak": {
+      "correct": 40,
+      "n": 60,
+      "accuracy": 0.6666666666666666,
+      "strong_calls": 0,
+      "strong_call_fraction": 0.0,
+      "weak_calls": 60,
+      "abstentions_before_fallback": 0
+    },
+    "always_strong": {
+      "correct": 52,
+      "n": 60,
+      "accuracy": 0.8666666666666667,
+      "strong_calls": 60,
+      "strong_call_fraction": 1.0,
+      "weak_calls": 0,
+      "abstentions_before_fallback": 0
+    },
+    "seeded_random_50_50": {
+      "correct": 52,
+      "n": 60,
+      "accuracy": 0.8666666666666667,
+      "strong_calls": 32,
+      "strong_call_fraction": 0.5333333333333333,
+      "weak_calls": 28,
+      "abstentions_before_fallback": 0
+    },
+    "oracle_per_item": {
+      "correct": 58,
+      "n": 60,
+      "accuracy": 0.9666666666666667,
+      "strong_calls": 18,
+      "strong_call_fraction": 0.3,
+      "weak_calls": 42,
+      "abstentions_before_fallback": 0
+    },
+    "best_calibration_fixed_model": {
+      "model": "gpt-4-1106-preview",
+      "performance": {
+        "correct": 52,
+        "n": 60,
+        "accuracy": 0.8666666666666667,
+        "strong_calls": 60,
+        "strong_call_fraction": 1.0,
+        "weak_calls": 0,
+        "abstentions_before_fallback": 0
+      }
+    },
+    "jev_raw_candidate_choices": {
+      "weak": 49,
+      "strong": 11,
+      "review": 0
+    },
+    "jev_raw_choice_accuracy_when_model_chosen": 0.7333333333333333,
+    "jev_raw_choice_coverage": 1.0,
+    "jev_effective_abstentions": 46,
+    "jev_effective_coverage": 0.23333333333333334,
+    "jev_selective_accuracy": 0.8571428571428571,
+    "jev_effective_with_strong_fallback": {
+      "correct": 51,
+      "n": 60,
+      "accuracy": 0.85,
+      "strong_calls": 46,
+      "strong_call_fraction": 0.7666666666666667,
+      "weak_calls": 14,
+      "abstentions_before_fallback": 46
+    },
+    "confidence_reason_counts": {
+      "selected": 14,
+      "uncertain": 46
+    },
+    "jev_accuracy_gap_from_oracle_pp": 11.66666666666667,
+    "no_test_labels_in_jev_requests": true
+  },
+  "limitations": [
+    "Historical model pair results cannot be assigned as Astra/Sol/Luna model outcomes.",
+    "GSM8K-only correctness provides no evidence for other task families.",
+    "The deterministic strong fallback is not a calibrated cost optimum; no token prices were available."
+  ]
+}

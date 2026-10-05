@@ -1,0 +1,77 @@
+{
+  "dataset": "author-defined synthetic policy gold v1",
+  "split": "dev",
+  "model": "jev-1.13.0",
+  "provider": "typesafe",
+  "hashes": {
+    "evals/cases.jsonl": "45366f674744316ad17795dd7442bfcc991ff9bbb7fdd3ac227ce089ad34310e",
+    "evals/gold.json": "b10d4aa5891df701e2435884d3d13502cf215155f85bd5844805423c593f2ca8",
+    "scripts/route.py": "8050431e07073b00341140e2caedffc26072251992e51fc89fac2e1f80982a77"
+  },
+  "ids": [
+    "c002",
+    "c004",
+    "c010",
+    "c016",
+    "c017",
+    "c018",
+    "c027",
+    "c029",
+    "c030",
+    "c032",
+    "c038",
+    "c039",
+    "c040",
+    "c041",
+    "c042",
+    "c048"
+  ],
+  "live_requested": true,
+  "jev_called": true,
+  "elapsed_seconds": 0.26190075,
+  "metrics": {
+    "n": 16,
+    "correct": 15,
+    "accuracy": 0.9375,
+    "accuracy_wilson_95": [
+      0.7167073163197013,
+      0.9888809426916687
+    ],
+    "raw_choice_correct": 15,
+    "raw_choice_accuracy": 0.9375,
+    "substantive_coverage": 0.6875,
+    "selective_accuracy": 1.0,
+    "provider_or_invalid_errors": 0,
+    "critical_underdelegations": 0,
+    "confusion_matrix": {
+      "astra": {
+        "astra": 4
+      },
+      "luna": {
+        "luna": 4
+      },
+      "review": {
+        "review": 4
+      },
+      "sol": {
+        "sol": 3,
+        "review": 1
+      }
+    },
+    "misses": [
+      {
+        "id": "c030",
+        "gold": "sol",
+        "route": "review",
+        "raw_choice": "luna",
+        "reason": "uncertain",
+        "rationale": "Moderate technical synthesis with fixed facts and limited judgment scope."
+      }
+    ]
+  },
+  "limitations": [
+    "Not human-validated gold or a public benchmark.",
+    "Classification agreement is not worker task success.",
+    "No monetary costs or savings inferred."
+  ]
+}

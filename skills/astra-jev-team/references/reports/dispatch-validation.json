@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-04",
+  "offline_unit_tests": 53,
+  "independent_forward_tests": 9,
+  "evaluator": "gpt-6-luna",
+  "live_calls": 0,
+  "skill_structure": "pass",
+  "status": "experimental_unpublished",
+  "changed_classifier_policy": false,
+  "independent_test_findings_fixed": [
+    "nonboolean_independent_review",
+    "missing_acceptance_coverage"
+  ],
+  "limits": [
+    "Host-attested receipts do not authenticate execution",
+    "No new coding-outcome accuracy, cost or latency measurement"
+  ]
+}

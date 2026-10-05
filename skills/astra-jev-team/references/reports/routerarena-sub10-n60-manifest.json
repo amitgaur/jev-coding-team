@@ -1,0 +1,53 @@
+{
+  "benchmark": "RouterArena",
+  "dataset_id": "RouteWorks/RouterArena",
+  "dataset_revision": "a4a062ce3313b56bb09c042e1bc37b61d34e3bd8",
+  "dataset_files_revision_url": "https://huggingface.co/datasets/RouteWorks/RouterArena/tree/a4a062ce3313b56bb09c042e1bc37b61d34e3bd8",
+  "dataset_rows_api": "https://datasets-server.huggingface.co/rows",
+  "split": "sub_10",
+  "source_rows": 809,
+  "selected_rows": 60,
+  "sample_seed": 20261004,
+  "sampling": "20 rows sampled without replacement within each published difficulty, then shuffled",
+  "difficulty_proxy_mapping": {
+    "easy": "luna",
+    "medium": "sol",
+    "hard": "astra"
+  },
+  "mapping_status": "experimental proxy only; RouterArena difficulty is not a validated Astra/Sol/Luna skill-routing label",
+  "dataset_license": "Not specified in Hugging Face dataset card metadata; source collections may have their own terms. Local evaluation copy only; do not redistribute absent rights review.",
+  "repository_code_license": "Apache-2.0 (RouterArena GitHub repository; not evidence that all upstream data has the same license)",
+  "limitations": [
+    "No per-model correctness/outcome matrix in this dataset schema.",
+    "No answer key or difficulty label is included in tasks.json sent to Jev.",
+    "Benchmark includes varied QA/code/generation tasks, while the skill's role rubric was written for delegated work classification."
+  ],
+  "source_links": [
+    "https://huggingface.co/datasets/RouteWorks/RouterArena",
+    "https://github.com/RouteWorks/RouterArena",
+    "https://arxiv.org/abs/2510.00202"
+  ],
+  "files_sha256": {
+    "selected_source.jsonl": "890500a0693645b7ed8f156536fc76d1c5cf9bf08dfb1de59771fb5a11375e36",
+    "tasks.json": "fe7341a56f249f0de8e060b14648d283ec3dfcab77aa07eeb762a6588f62a815",
+    "gold.json": "4667794bec1268b76b5a7084f4e96ab9c09aa6e67be07e23ae84a3de902ff38e",
+    "manifest-run-snapshot.json": "4f4c899b675cc6cabf730502ff60c0fd63105379b4d5ce8e11dec93579180796"
+  },
+  "dataset_parquet_url": "https://huggingface.co/datasets/RouteWorks/RouterArena/resolve/a4a062ce3313b56bb09c042e1bc37b61d34e3bd8/data/sub_10-00000-of-00001.parquet",
+  "dataset_parquet_sha256": "e7b4b7579e98df0b83202324357d0b91af78666ddbf1038a513d19edaf58efd5",
+  "dataset_revision_verified": true,
+  "revision_verification": {
+    "method": "Downloaded the Parquet object from the revision-specific Hugging Face resolve URL, decoded all 809 rows, compared every field for all 60 selected rows, and rebuilt the selected sample from that pinned object.",
+    "selected_rows_exact_match": 60,
+    "selected_rows_compared": 60,
+    "deterministic_rebuild_sha256": {
+      "selected_source.jsonl": "890500a0693645b7ed8f156536fc76d1c5cf9bf08dfb1de59771fb5a11375e36",
+      "tasks.json": "fe7341a56f249f0de8e060b14648d283ec3dfcab77aa07eeb762a6588f62a815",
+      "gold.json": "4667794bec1268b76b5a7084f4e96ab9c09aa6e67be07e23ae84a3de902ff38e",
+      "manifest-run-snapshot.json": "4f4c899b675cc6cabf730502ff60c0fd63105379b4d5ce8e11dec93579180796"
+    },
+    "rows_api_caveat": "Hugging Face datasets-server rows endpoint returned the same content for an invalid revision query parameter; it was not used as revision proof.",
+    "dependency": "pyarrow 25.0.1"
+  },
+  "preparation_dependency": "pyarrow==25.0.1 (tested; any compatible pyarrow can read Parquet)"
+}

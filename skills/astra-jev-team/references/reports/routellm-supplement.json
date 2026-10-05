@@ -1,0 +1,37 @@
+{
+  "based_on_run_summary_sha256": "f21e30020c185b38aebebb656389d8b437e5b2888a769f9be0afd6b396998c58",
+  "n": 60,
+  "jev_strong_fallback_accuracy_wilson_95": [
+    0.7388517410884038,
+    0.9190265075770431
+  ],
+  "independent_50_50_random_expected": {
+    "expected_accuracy": 0.7666666666666666,
+    "expected_strong_call_fraction": 0.5,
+    "formula": "0.5 * always_weak_accuracy + 0.5 * always_strong_accuracy"
+  },
+  "random_matched_to_jev_strong_call_share_expected": {
+    "expected_accuracy": 0.8200000000000001,
+    "strong_call_fraction": 0.7666666666666667,
+    "formula": "(1-p) * always_weak_accuracy + p * always_strong_accuracy",
+    "note": "Expected value for random independent model assignment at the Jev+fallback strong-call rate; not another model call run."
+  },
+  "seeded_random_realization": {
+    "correct": 52,
+    "n": 60,
+    "accuracy": 0.8666666666666667,
+    "strong_calls": 32,
+    "strong_call_fraction": 0.5333333333333333,
+    "weak_calls": 28,
+    "abstentions_before_fallback": 0
+  },
+  "oracle": {
+    "correct": 58,
+    "n": 60,
+    "accuracy": 0.9666666666666667,
+    "strong_calls": 18,
+    "strong_call_fraction": 0.3,
+    "weak_calls": 42,
+    "abstentions_before_fallback": 0
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Jev Coding Team"
+  short_description: "Route Sol/Luna work with optional Astra advice"
+  default_prompt: "Use $astra-jev-team to coordinate this task with the current host and route bounded work to Sol or Luna using Jev; use Astra only if requested."

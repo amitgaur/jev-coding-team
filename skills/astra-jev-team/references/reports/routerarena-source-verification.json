@@ -1,0 +1,19 @@
+{
+  "dataset_id": "RouteWorks/RouterArena",
+  "revision": "a4a062ce3313b56bb09c042e1bc37b61d34e3bd8",
+  "artifact_url": "https://huggingface.co/datasets/RouteWorks/RouterArena/resolve/a4a062ce3313b56bb09c042e1bc37b61d34e3bd8/data/sub_10-00000-of-00001.parquet",
+  "artifact_sha256": "e7b4b7579e98df0b83202324357d0b91af78666ddbf1038a513d19edaf58efd5",
+  "rows_in_pinned_artifact": 809,
+  "selected_rows_exactly_verified": 60,
+  "selected_rows_total": 60,
+  "deterministic_rebuild_matches_original_selected_files": true,
+  "selected_file_sha256": {
+    "selected_source.jsonl": "890500a0693645b7ed8f156536fc76d1c5cf9bf08dfb1de59771fb5a11375e36",
+    "tasks.json": "fe7341a56f249f0de8e060b14648d283ec3dfcab77aa07eeb762a6588f62a815",
+    "gold.json": "4667794bec1268b76b5a7084f4e96ab9c09aa6e67be07e23ae84a3de902ff38e",
+    "manifest-run-snapshot.json": "4f4c899b675cc6cabf730502ff60c0fd63105379b4d5ce8e11dec93579180796"
+  },
+  "run_manifest_snapshot_sha256": "4f4c899b675cc6cabf730502ff60c0fd63105379b4d5ce8e11dec93579180796",
+  "verification_manifest_sha256": "72c957a94ec5688324de7ab39b65c915b3ce5e2fd59e286b8c39d3d1ae7c9f04",
+  "method": "Parquet read via pyarrow 25.0.1; equality checked for all keys/values in each selected row."
+}

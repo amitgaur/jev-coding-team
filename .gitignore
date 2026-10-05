@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+.venv/
+venv/
+runs/
+data/
+private/
+*.log
+*.zip
